@@ -9,6 +9,11 @@ body {
     text-align: center;
 }
 
+.zag {
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
 
 /*Стили для меню*/
 
@@ -85,13 +90,53 @@ body {
     font-weight: 400;
 }
 
+
+/*Page2*/
+
 .pg2 {
     background-image: url(images/fon.jpg);
     background-size: cover;
+    text-shadow: 1px 1px 2px #111;
+}
+
+.pg2__gray {
+    color: #eee;
+}
+
+.pg2__bullet {
+    font-size: 21px;
+    font-weight: 300;
+    color: #ddd;
+    margin-top: 20px;
+    position: relative;
+    padding-left: 80px;
+}
+
+.pg2__bulletdescr {
+    color: #bbb;
+    margin-bottom: 20px;
+    padding-left: 80px;
+}
+
+.icon-star-full,
+.icon-video-camera,
+.icon-clock,
+.icon-film,
+.icon-box-remove,
+.icon-lifebuoy {
+    color: #ff6131;
+    font-size: 35px;
+    position: absolute;
+    left: 0;
+    top: 7px;
 }
 
 
 /*ОБщие стили*/
+
+.fw300 {
+    font-weight: 300;
+}
 
 .pg__right {
     width: 50%;
@@ -110,8 +155,11 @@ body {
 .right {
     float: right;
 }
+
 .orange_text {
     color: #ff6131;
+    font-weight: 600;
+    font-size: 23px;
 }
 
 .clearfix:before,
