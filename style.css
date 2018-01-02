@@ -132,10 +132,39 @@ body {
 }
 
 
+/*Page3-Sliders*/
+
+.pg3_sl {
+    background-image: url(images/halftone.png)
+}
+
+.pg3_sl .zag {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.pg3_sl .zag:hover {
+    color: #c40000;
+}
+
+.pg3_sl .zag:hover .blue_text {
+    color: #c40000;
+}
+
+
 /*ОБщие стили*/
 
 .fw300 {
     font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.blue_text {
+    color: #12a2f5;
+    transition: all .3s;
 }
 
 .pg__right {
