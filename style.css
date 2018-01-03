@@ -56,6 +56,9 @@ body {
 
 /*Стили для страниц*/
 
+
+/*Page 1*/
+
 .pg1 {
     background-image: url(images/fon3.jpg);
     background-size: cover;
@@ -151,6 +154,51 @@ body {
     color: #c40000;
 }
 
+/*Page 4*/
+.pg4_sl1 {
+    background-color: #FFDE44; 
+}
+
+.lozung_pg4 {
+    font-size: 26px;
+    font-weight: 300;
+    color: #353535;
+}
+
+.pg4_sl2 {
+    background-color: #A3F8FF;
+}
+
+.pg4_sl3 {
+    background-color: #FFC079;
+}
+
+.pg4_sl4 {
+    background-color: #E9FF79;
+}
+/*Офорление контролов*/
+
+.fp-controlArrow.fp-prev,
+.fp-controlArrow.fp-next {
+    border-width: 0;
+    border-color: transparent;
+    margin-top: -14px;
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    
+}
+
+.fp-controlArrow.fp-prev:hover {
+    color: #12a2f5;
+    transform: scale(1.5) rotate(360deg);
+}
+.fp-controlArrow.fp-next:hover {
+    color: #12a2f5;
+    transform: scale(1.5) rotate(-360deg);
+}
 
 /*ОБщие стили*/
 
@@ -165,6 +213,10 @@ body {
 .blue_text {
     color: #12a2f5;
     transition: all .3s;
+}
+
+.red_text {
+    color: #AF0101;
 }
 
 .pg__right {
