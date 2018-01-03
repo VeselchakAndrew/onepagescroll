@@ -56,6 +56,9 @@ body {
 
 /*Стили для страниц*/
 
+
+/*Page 1*/
+
 .pg1 {
     background-image: url(images/fon3.jpg);
     background-size: cover;
@@ -149,6 +152,23 @@ body {
 
 .pg3_sl .zag:hover .blue_text {
     color: #c40000;
+}
+
+.fp-controlArrow.fp-prev,
+.fp-controlArrow.fp-next {
+    border-width: 0;
+    border-color: transparent;
+    margin-top: -14px;
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    transition: all .3s;
+}
+
+.fp-controlArrow.fp-prev:hover,
+.fp-controlArrow.fp-next:hover {
+    color: #12a2f5;
+    transform: scale(1.3) rotate(720deg);
 }
 
 
