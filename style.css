@@ -217,8 +217,13 @@ body {
 /*Page 6*/
 
 .pg6 {
+    background: url(images/bg.png);
     color: #eee;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0)
+}
+
+.pg6 .zag {
+    margin: 0 0 40px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .pg6 img {
@@ -235,6 +240,37 @@ body {
     border-color: rgb(5, 145, 226);
     box-shadow: 1px 1px 3px rgb(3, 81, 126);
     transform: scale(1.1);
+}
+
+
+/*Page 7*/
+
+.pg7 {
+    background-image: url(images/tactile_noise.png);
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+
+.pg7 .pg__right {
+    margin-top: 0;
+}
+
+.garantiya {
+    transition: all 1s ease-in-out;
+}
+
+.garantiya:hover {
+    /* transition: all 1s; */
+    transform: rotate(360deg);
+}
+
+.tar {
+    text-align: right;
+}
+
+.tac {
+    text-align: center;
 }
 
 
@@ -286,14 +322,19 @@ body {
     color: #AF0101;
 }
 
+.yellow_text {
+    color: #fdbf06;
+}
+
 .pg__right {
     width: 50%;
     margin-right: 5%;
     text-align: left;
+    margin-top: 40px;
 }
 
 .pg__left {
-    width: 45%;
+    width: 40%;
 }
 
 .left {
