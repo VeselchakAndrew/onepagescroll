@@ -432,6 +432,20 @@ body {
 }
 
 
+/*Remodal*/
+
+.remodal p {
+    text-align: justify;
+}
+
+.remodal__zag {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #AF0101;
+}
+
+
 /*ОБщие стили*/
 
 .fw300 {
@@ -457,6 +471,10 @@ body {
 
 .yellow_text {
     color: #fdbf06;
+}
+
+.element {
+    padding-right: 0;
 }
 
 .pg__right {

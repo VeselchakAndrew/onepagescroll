@@ -5,6 +5,7 @@ $('#fullpage').fullpage({
     slidesNavPosition: 'bottom',
 });
 
+
 // button scr
 (function() {
     var removeSuccess;
